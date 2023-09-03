@@ -1,11 +1,10 @@
 package L04;
 
 
-interface IAir{
-   default void  back(){
-       System.out.println("back");
+import java.awt.*;
 
-    }
+interface IAir{
+    void  back();
     void left();
     void right();
 
@@ -32,11 +31,16 @@ public class AirPlane implements IAir,I1,I2,I3,I4 {
     public void right() {
 
     }
+
+    public void back(){
+
+    }
 }
 
 class TestAit{
 
     public static void main(String[] args) {
+        Point p = new Point(5,5);
         IAir air  = new AirPlane();
     }
 }
