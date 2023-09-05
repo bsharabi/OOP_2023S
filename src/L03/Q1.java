@@ -4,6 +4,6 @@ public class Q1 {
 }
 
 
-class Point3 implements Point3Interface{
-
-}
+//class Point3 implements Point3Interface{
+//
+//}

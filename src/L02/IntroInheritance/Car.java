@@ -1,4 +1,4 @@
-package L02.inheritance;
+package L02.IntroInheritance;
 
 public class Car {
 
